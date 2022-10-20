@@ -47,5 +47,5 @@ footer {
 	width: 100%;
 	color: black;
 	text-align: center;
-	backdrop-filter: blur(5px);
+	backdrop-filter: blur(2px);
 }
