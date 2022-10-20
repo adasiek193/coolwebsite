@@ -18,16 +18,17 @@ body {
 	margin: 0;
 }
 
-#text {
+header {
 	font-size: 64px;
 	color: #fff;
 	width: auto;
 	height: auto;
 }
 
-#ip-sold {
+h2 {
 	font-size: 24px;
 	color: white;
+	font-weight: 500;
 }
 
 .chujek {
