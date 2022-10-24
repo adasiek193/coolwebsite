@@ -1,0 +1,54 @@
+html,
+body {
+	margin: 0;
+}
+
+body {
+	background-image: url(femboy.png);
+	font-family: monospace;
+}
+
+#click-to-enter {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: black;
+	border: 2px solid black;
+	width: 100%;
+	height: 100%;
+}
+
+#text {
+	color: black;
+	font-size: 0px;
+}
+
+body.container #text {
+	color: white;
+	font-size: 36px;
+	backdrop-filter: blur(4px);
+	text-align: center;
+}
+
+body.container {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	background-image: url(femboy.png);
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	font-size: 20px;
+	width: 100%;
+	color: white;
+	text-align: center;
+	backdrop-filter: blur(2px);
+}
+
